@@ -3,12 +3,12 @@ import './ownCss/App.css';
 import './ownCss/tailwind.css';
 
 import { Route, Routes } from 'react-router-dom';
-import { Turnaments } from './components/Turnaments';
-import { Shop } from './components/Shop';
-import { Market } from './components/Market';
-import { Ties } from './components/Ties';
+import { Turnaments } from './components/Turnaments.jsx';
+import { Shop } from './components/Shop.jsx';
+import { Market } from './components/Market.jsx';
+import { Ties } from './components/Ties.jsx';
 import { MathPage } from './components/game.jsx';
-import { Forum } from './components/Forum';
+import { Forum } from './components/Forum.jsx';
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import "@sjmc11/tourguidejs/src/scss/tour.scss" // Styles
