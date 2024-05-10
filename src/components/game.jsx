@@ -227,7 +227,7 @@ export function MathPage({ handleTraining, tour, startTour }) {
     let count = useRef(1);
     let myinput = useRef(null);
     const setFocus = () => {
-        // Check if the current ref is not null and focus the element
+        // Check if the current ref is not null and focus the elementawdawd
         if (inputRef.current) {
           myinput.current.focus();
         }
