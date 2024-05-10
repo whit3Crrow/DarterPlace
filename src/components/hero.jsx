@@ -8,7 +8,7 @@ export function Hero({h1, p}){
                     <div class="mx-auto max-w-2xl pt-20 sm:py-32 ">
                         <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                             <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                                Solve 10 dart equations to get -20% Promo Code in our shop <Link to='/vite/DartGame' class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Go! <span aria-hidden="true">&rarr;</span></Link>
+                                Solve 10 dart equations to get -20% Promo Code in our shop <Link to='/' class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Go! <span aria-hidden="true">&rarr;</span></Link>
                             </div>
                         </div>
                         <div class="text-center">

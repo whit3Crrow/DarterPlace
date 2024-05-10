@@ -5,5 +5,5 @@ import gltf from 'vite-plugin-gltf';
 export default defineConfig({
   plugins: [react(), gltf()],
   assetsInclude: ['**/*.glb'],
-  base: '/vite/'
+  base: '/'
 })

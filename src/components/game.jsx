@@ -1,9 +1,9 @@
 import { useState, useRef, useEffect } from "react";
-import dartcircle from '../images/shutterstock_387532816_2.png'
-import firstarrow from '../images/FIRSTSHOT.png'
-import secondarrow from '../images/secondshot.png'
-import thirdarrow from '../images/thirdshot.png'
-import trophe from '../images/trofeum.png'
+import dartcircle from '../images/shutterstock_387532816_2-4a56c67b.webp'
+import firstarrow from '../images/FIRSTSHOT-0ae16ce5.webp'
+import secondarrow from '../images/secondshot-217807ab.webp'
+import thirdarrow from '../images/thirdshot.webp'
+import trophe from '../images/trofeum-4666e024.webp'
 import back from '../images/back.png'
 import { HomeArrow } from './backarrow.jsx';
 
@@ -262,7 +262,7 @@ export function MathPage({ handleTraining, tour, startTour }) {
     return (
         <>
 
-                <Link to='/vite'><div className='menu'>
+                <Link to='/Turnaments'><div className='menu'>
                     <img src={trophe} id="trophe" ></img>
                     <h1 style={{ direction: 'none' }} >DARTER PLACE COM</h1>
 

@@ -63,11 +63,10 @@ const start = ()=>{
   return (
     <>
         <Routes>
-          <Route path='/vite/' element={<Shop></Shop>}></Route>
-          <Route path='/vite/Shop' element={<Shop></Shop>}></Route>
-          <Route path='/vite/DartGame' element={<MathPage tour={tg} startTour={start}></MathPage>}></Route>
-          <Route path='/vite/Forum' element={<Forum></Forum>}></Route>
-          <Route path='/vite/Turnaments' element={<Turnaments></Turnaments>}></Route>
+          <Route path='/' element={<MathPage tour={tg} startTour={start}></MathPage>}></Route>
+          <Route path='/Shop' element={<Shop></Shop>}></Route>
+          <Route path='/Forum' element={<Forum></Forum>}></Route>
+          <Route path='/Turnaments' element={<Turnaments></Turnaments>}></Route>
         </Routes>
       
     </>

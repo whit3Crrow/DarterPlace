@@ -20,10 +20,10 @@ export function Nav() {
                 </div>
 
                 <div class="nav-links">
-                    <Link to='/vite/Shop'>Shop</Link>
-                    <Link to='/vite/DartGame'>Training App</Link>
-                    <Link to='/vite/Forum'>Forum</Link>
-                    <Link to='/vite/Turnaments'>Tournaments</Link>
+                    <Link to='/Shop'>Shop</Link>
+                    <Link to='/'>Training App</Link>
+                    <Link to='/Forum'>Forum</Link>
+                    <Link to='/Turnaments'>Tournaments</Link>
                 </div>
             </div>
         </>
