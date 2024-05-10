@@ -226,6 +226,12 @@ export function MathPage({ handleTraining, tour, startTour }) {
 
     let count = useRef(1);
     let myinput = useRef(null);
+    const setFocus = () => {
+        // Check if the current ref is not null and focus the element
+        if (inputRef.current) {
+          myinput.current.focus();
+        }
+      };
 
     if (value == Anserw) {
 
@@ -318,6 +324,7 @@ export function MathPage({ handleTraining, tour, startTour }) {
 
                         <input
                             ref={myinput}
+                            onBlur={setFocus}
                             type="number"
                             id="name"
                             value={value || ''}
