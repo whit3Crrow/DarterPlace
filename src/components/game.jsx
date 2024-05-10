@@ -168,6 +168,7 @@ export function MathPage({ handleTraining, tour, startTour }) {
     const [Counter, setCounter] = useState(1);
 
     function randomShot() {
+        myinput.current.focus();
         let dartNums = [20, 1, 18, 4, 13, 20, 6, 19, 19, 10, 15, 2, 17, 3, 20, 7, 16, 8, 11, 14, 9, 12, 5, 20, 25, 50];
         let multiplies = [1, 1, 1, 1, 2, 2, 3, 3, 0];
         let x = 25;
@@ -224,6 +225,7 @@ export function MathPage({ handleTraining, tour, startTour }) {
     };
 
     let count = useRef(1);
+    let myinput = useRef(null);
 
     if (value == Anserw) {
 
@@ -254,6 +256,7 @@ export function MathPage({ handleTraining, tour, startTour }) {
     const promocode = useRef(rand1 + '-i-' + rand1);
     
     useEffect(()=>{
+        myinput.current.focus();
         setTimeout(()=>{
             startTour();
 
@@ -314,6 +317,7 @@ export function MathPage({ handleTraining, tour, startTour }) {
 
 
                         <input
+                            ref={myinput}
                             type="number"
                             id="name"
                             value={value || ''}
